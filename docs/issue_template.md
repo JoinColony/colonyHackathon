@@ -1,10 +1,7 @@
-#Welcome to the Colony Hackathon. Please add your project name above ^^ as the title of this issue
+#Project Title (Please also add it above ^^ as the title of this issue):
 
-#Project Description (what's this project all about?)
+#Project Description (1-2 sentences of what this project is, in a nutshell):
 
+#Team Members and Contact info (Name, @twitter, @github, email, etc.):
 
-
-#Team Members (Name, @twitter, @github, email, etc.):
-
-
-
+#Any additional info you might want to share now:
