@@ -65,12 +65,27 @@ Here’s how it works:
 
 
 1. Create your issue within this repo at the start of your project. Be sure to include your project’s name and any team members. Any information in this step can be amended later as your work progresses — the issue is just to let us know you’re joining.
+
 2. In a new branch called `project/"exampleProject"`, create a folder titled  `/submissions/exampleProject`. That folder should be your project’s root directory, and should contain its own `README.md` (and, if you so desire, an appropriate `LICENSE`). 
-3. Work on your project.
+
+```bash
+
+
+~$git checkout -b project/exampleProject
+
+~$mkdir submissions/exampleProject
+```
+
+
+3. Work on your project. Add explanations and any relevant materials to the project's README to be considered by judges.
+
 4. Before the submission deadline, finalize your project by creating a pull request that closes your project’s issue. 
-
-
 
 
 ---
 
+# Build with Colony
+
+## Install ColonyJS
+
+TODO: `npm` instructions for adding `ColonyJS`
