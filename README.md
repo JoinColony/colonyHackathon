@@ -7,7 +7,7 @@ Welcome to the submission repository for the Colony Hackathon!
 **June 14th**
 Registration begins
 
-**June 24th (23:59:59 UTC)** 
+**June 24th** 
 Submission deadline
 
 **June 29th**
@@ -47,14 +47,15 @@ Info about our super-awesome Judges panel can be found (link to judges bios)
 2,000 DAI
 
 Runners up:
-3 * 1,000 DAI
 
-10 * 500 DAI
+3 winners: 1,000 DAI
+
+10 winners: 500 DAI
 
 
 ## Gitter
 
-To meet potential team members, chat about projects, or get help with your code and the ColonyJS library, head over to the hackathon gitter: (gitter is down ATM for maintenance)
+To meet potential team members, chat about projects, or get help with your code and the ColonyJS library, head over to the  [gitter](https://gitter.im/ColonyHackathon/Lobby)
 
 # Submission Guidelines
 
@@ -84,6 +85,8 @@ Here’s how it works:
 ---
 
 # Build with Colony
+
+You can read more about the Colony Protocol from the (documentation link)
 
 ## Install ColonyJS
 
