@@ -1,4 +1,9 @@
-Project Title <!--(Please also add it above ^^ as the title of this issue):-->
+### Colony Hackathon Submission
+<!-- Fill this out now to RSVP. You can always come back and edit it when info changes. -->
+<!-- You *don't* need to delete all the comments like this one since they won't show up in the viewer. -->
+<!-- Use your project name as the title of this issue. This is what we’ll call your winning project! -->
+
+Project Title: <!--(Please also add it above ^^ as the title of this issue)-->
 
 ---
 
