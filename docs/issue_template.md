@@ -8,12 +8,12 @@
 
 ---
 
-**Project Description** 
+**Project Description**
 <!--(1-2 sentences about this project. Motivations, goals, functionality -- you name it.)-->
 
 
 **Project Repository**
-<!--Where will you be working on your project? --> 
+<!--Where will you be working on your project? -->
 
 
 **Team Members and Contact info**
@@ -24,5 +24,3 @@
 
 
 <!--Any additional info you might want to share now:-->
-
-

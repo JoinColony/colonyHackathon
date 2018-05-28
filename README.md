@@ -2,7 +2,7 @@
 Welcome to the submission repository for the Colony Hackathon!
 
 
-You can read more about the Colony Protocol from the [Docs](JoinColony.github.io)
+You can read more about the Colony Protocol from the [Docs](https://joincolony.github.io/colonyjs/docs-overview/)
 
 ## Gitter
 
@@ -17,7 +17,7 @@ Here’s how it works:
 
 ## The Submission Process
 
-### 0) Create an issue
+### 1) Create an issue
 Your first step is to create an issue in the `colonyHackathon` repository. This issue acts as a "soft" registration for the hackathon, and can help you to coordinate your ideas with other participants. An issue is a good place to talk openly about your project ideas with others before you decide on its exact scope.
 
 Use your issue to talk with collaborators, brainstorm, and organize. Check out the other issues to see if there are participants who want to work on the same things.
@@ -26,14 +26,14 @@ Members of the colony team will be able to point other participants to your issu
 
 Issue events will also be pulled into the Gitter feed [Gitter](https://gitter.im/ColonyHackathon/Lobby) which is a better place for more general discussion and chatting.
 
-### 1) Build with Colony
+### 2) Build with Colony
 Work on your project as you like. How you work is up to you; We recommend creating a new GitHub repo for your team. Remember to only begin working on your project after the hackathon begins on June 5th!
 
-Use the issue you created in step 0 to let others know where your project lives. You might want discuss any technical challenges or attract additional teammembers.
+Use the issue you created in step 1 to let others know where your project lives. You might want discuss any technical challenges or attract additional teammembers.
 
 Wherever you work, remember that your project should include an **Open Source License** of [some form](https://opensource.org/licenses), and should be accessible to everyone after the submission deadline.
 
-### 2) Fork and PR
+### 3) Fork and PR
 When you feel ready to submit, create a new fork of the colonyHackathon repo, and add your project as a markdown file inside `colonyHackathon/submissions/`.
 
 You can use `submissions/exampleProject.md` as a template if you like.
@@ -46,7 +46,7 @@ Once ready, submit via a new [pull request](https://github.com/JoinColony/colony
 
 You can open a PR before the submission deadline and continue to work, but all materials must be finalized *before* the end of the hackathon. Any commits to your project submission after the deadline will not be considered.
 
-We'd also recommend referencing the issue you created in step 0 [using keywords](https://help.github.com/articles/closing-issues-using-keywords/) in your PR.
+We'd also recommend referencing the issue you created in step 1 [using keywords](https://help.github.com/articles/closing-issues-using-keywords/) in your PR.
 
 **Submit your pull request before the submission deadline: _June 24, 23:59 GMT_**
 
