@@ -1,7 +1,7 @@
 ![Hackathon](docs/hackathon_banner.png)
 Welcome to the submission repository for the Colony Hackathon.
 
-You can read more about the Colony Protocol from the [Docs](https://joincolony.github.io/colonyjs/docs-overview/).
+You can read more about the Colony Network and the colonyJS library on the [Docs site](https://joincolony.github.io/colonyjs/docs-overview/).
 
 ## Gitter
 
