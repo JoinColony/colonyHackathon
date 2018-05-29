@@ -1,17 +1,16 @@
 ![Hackathon](docs/hackathon_banner.png)
-Welcome to the submission repository for the Colony Hackathon!
+Welcome to the submission repository for the Colony Hackathon.
 
-
-You can read more about the Colony Protocol from the [Docs](https://joincolony.github.io/colonyjs/docs-overview/)
+You can read more about the Colony Protocol from the [Docs](https://joincolony.github.io/colonyjs/docs-overview/).
 
 ## Gitter
 
-To meet potential team members, chat about projects, or get help with your code and the ColonyJS library, head over to the  [the colonyHackathon Gitter](https://gitter.im/ColonyHackathon/Lobby)
+To meet potential team members, chat about projects, or get help with your code and the ColonyJS library, head over to the  [the colonyHackathon Gitter](https://gitter.im/ColonyHackathon/Lobby).
 
 
 # Submission Guidelines
 
-Participating in the hackathon is as easy as contributing to an open source project on GitHub. Exactly so, because you will register your project by creating an issue in this repository, and submit it by creating a pull request!
+Participating in the hackathon is as easy as contributing to an open source project on GitHub. Exactly so, because you will register your project by creating an issue in this repository, and submit it by creating a pull request.
 
 Here’s how it works:
 
@@ -40,7 +39,7 @@ You can use `submissions/exampleProject.md` as a template if you like.
 
 Be sure that your project's folder links to the repo you've been working in, and contains any other supporting materials that you want evaluated by judges (such as links to a pitch deck or demo video).
 
-Once ready, submit via a new [pull request](https://github.com/JoinColony/colonyHackathon/pulls)
+Once ready, submit via a new [pull request](https://github.com/JoinColony/colonyHackathon/pulls).
 
 *Opening a Pull Request establishes your project as an "official" submission*
 
@@ -50,7 +49,7 @@ We'd also recommend referencing the issue you created in step 1 [using keywords]
 
 **Submit your pull request before the submission deadline: _June 24, 23:59 GMT_**
 
-### 3) Congratulate your team (and yourself) on a job well-done
+### 4) Congratulate your team (and yourself) on a job well-done
 Whether or not you get a prize, you deserve to be proud of your work. Thanks for participating in the hackathon!
 
 
@@ -62,20 +61,23 @@ Registration begins
 **June 24th**
 Submission deadline
 
+**June 25th**
+Judging begins
+
 **June 29th**
 Winners Announced
 
 
 ## Judges and Scoring
 
-Submissions will be graded by the following criteria:
+Submissions will be graded across the following equally-weighted criteria:
 
 1. Creativity
 2. Ambition / Difficulty
 3. Presentation
 4. Utility
 
-Info about our super-awesome Judges panel can be found on [the hackathon website](https://colony.io/hackathon)
+Info about our super-awesome judges panel can be found on [the hackathon website](https://colony.io/hackathon).
 
 ## Prizes
 
