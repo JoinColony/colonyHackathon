@@ -72,10 +72,10 @@ Winners Announced
 
 Submissions will be graded across the following equally-weighted criteria:
 
-1. Creativity
-2. Ambition / Difficulty
-3. Presentation
-4. Utility
+1. Functionality
+2. Creativity
+3. Difficulty
+4. Design
 
 Info about our super-awesome judges panel can be found on [the hackathon website](https://colony.io/hackathon).
 
