@@ -12,7 +12,7 @@ The project code lives at https://github.com/learning-blocks/learningblocks-colo
 
 ### Final Commit
 The final commit of our project for submission is:
-hhttps://github.com/learning-blocks/learningblocks-colony-hackathon/commit/619a442d374db10ab9f912e76100fda15619638e
+https://github.com/learning-blocks/learningblocks-colony-hackathon/commit/619a442d374db10ab9f912e76100fda15619638e
 
 ### Team
 The project was built with contributions from:
