@@ -26,7 +26,7 @@ The project code lives at https://github.com/ConnorChristie/diagnosis-colony
 
 ## Final Commit
 The final commit of our project for submission is:
-https://github.com/ConnorChristie/diagnosis-colony/commit/3353d5fead143e13b9f809b9f9bb849ef37475e3
+https://github.com/ConnorChristie/diagnosis-colony/commit/adc3b11419dc50c53a2dd9ec0d4b8b134a78edfc
 
 ## Team
 The project was built with contributions from:
