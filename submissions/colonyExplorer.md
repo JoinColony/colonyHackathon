@@ -17,7 +17,7 @@ The project code lives at https://github.com/KevinLiLu/ColonyExplorer
 
 ### Final Commit
 The final commit of our project for submission is:
-https://github.com/KevinLiLu/ColonyExplorer/commit/07a7acb680fed59ed24833dcd8b36ed74dd70aea
+https://github.com/KevinLiLu/ColonyExplorer/commit/e096e2e8aca1d99092cb62bb529ce45f5e48dd26
 
 ### Team
 The project was built with contributions from:
