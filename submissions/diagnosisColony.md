@@ -7,7 +7,7 @@ Not only could this be applicable to rare diseases, this could provide insight o
 
 ### Possible Applications
 * Someone with a rare unknown condition may post their story and allow contributions of both funds and knowledge to help them.
-* A group or organization may come together to share a larger story about planned parenthood for example, where research can be funded and crowdsourced to learn more about the issues.
+* A group or organization may come together to share a larger story about ebola for example, where research can be funded and crowdsourced to learn more about the issues.
 * Petition monetary support for possible organ donors or artificial limbs.
 
 ### Issue
