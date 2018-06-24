@@ -30,9 +30,9 @@ Read the readme.md file for User Flows, Setup Instructions, etc.
 ### Team
 The project was built with contributions from:
 
-- Jehane Akiki (@ja888 on GitHub)
-- Harald Krefting (@haraldini on GitHub)
-- Lisa Trujillo (@lisamtrujillo in GitHub)
+- Jehane Akiki | Project Founder | [LinkedIn](https://www.linkedin.com/in/jehane-akiki-7a58114a/) | @ja888 on GitHub
+- Harald Krefting | Lead Developer | [LinkedIn](https://www.linkedin.com/in/haraldkrefting/) | @haraldini on GitHub
+- Lisa Trujillo | Technical Delivery Manager and Developer | [LinkedIn](https://www.linkedin.com/in/lisamtrujillo/) | @lisamtrujillo in GitHub
 
 
 
