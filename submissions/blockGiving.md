@@ -21,6 +21,8 @@ By the nature of design of the platform, there is a complete transparency in the
 People in the grassroots can directly take up tasks and get funded instantly for the service provided.
 The community as a whole evaluates the task completion submissions and approves or disapproves it.
 
+
+
 ## Problems with Large NGOs
 * Donors don’t see the real impact of how their funds are getting used immediately. 
 * Some donors might be more passionate about certain cause and he/she might not be willing to donate to a large NGO because he might feel his contributions are insignificant. But, by using our platform he/she can fund small Actions of Goodness and see the impact in a short time. 
@@ -37,6 +39,10 @@ The community as a whole evaluates the task completion submissions and approves 
 - People living in a particular region can create real change with a little financial help from others which he might not be able to get because of his inexperience and lack of organizational prowess.
 - Large NGOs employ highly-paid fundraisers and have a huge budget to raise their millions of dollars but there are HUNDREDS of thousands of people around the world who takes an stand for a good cause and contributes directly through his time and limited resources.
 -By being a part of our platform, they can join our network and take actions on tasks that they are capable of doing and get funded for it by submitting the proofs-of-work in the form of images/videos.
+
+## How it works?
+![alt text](https://raw.githubusercontent.com/mdhalim/blockGiving/master/deck-images/flow.png)
+
 
 
 **Project Repository**
