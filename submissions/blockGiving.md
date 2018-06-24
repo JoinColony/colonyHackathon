@@ -78,11 +78,11 @@ Closes https://github.com/JoinColony/colonyHackathon/issues/107
 
 ### Repository
 
-The project code lives at https://github.com/username_or_organization/exampleProject
+The project code lives at https://github.com/avirajkhare00/colonyHack
 
 ### Final Commit
 The final commit of our project for submission is:
-https://github.com/username_or_organization/exampleProject/commit/793fafb21efbbee0620d74381dd11d3f25938726
+https://github.com/avirajkhare00/colonyHack/commit/3761bdb25dbd88ae30c7f361b75eb5f784ba8f02
 
 ### Team
 The project was built with contributions from:
