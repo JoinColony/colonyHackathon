@@ -26,6 +26,9 @@ We plan on expanding this project beyond the Medical field and into other resear
 * At that time, the researcher will also be able to rate the quality of the story
 * After all ratings are in, each party will be requested to reveal their ratings
 
+## Demo Video
+[researchColony: Crowdsourcing Time & Funds for Research](https://www.youtube.com/watch?v=E1lwfNCFhhA)
+
 ## Issue
 This closes the issue colonyHackathon#82
 
