@@ -86,13 +86,12 @@ https://github.com/username_or_organization/exampleProject/commit/793fafb21efbbe
 ### Team
 The project was built with contributions from:
 
-**Team Members and Contact info**
 <!--(Where can others reach you during the hackathon? @twitter, @github, email, etc.):-->
--@mdhalim  email: halim.infinity@gmail.com
--@avirajkhare00 email: avirajkhare00@gmail.com
--Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
+* @mdhalim  email: halim.infinity@gmail.com
+* @avirajkhare00 email: avirajkhare00@gmail.com
+* Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
 
 ---
 
 ## Additional Materials
-Pitch Deck
+Pitch Deck: https://raw.githubusercontent.com/mdhalim/blockGiving/1fed3b7cd8be9698dca39aa80afb0fcd8cad3da1/BlockGivingDeck.pdf
