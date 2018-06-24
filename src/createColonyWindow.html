@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Creating New Decentralized Data Science Colony</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <main>
+        <div class="card-panel colonyTextCard minimumPadding">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s8">
+                            <input value="" id="token_name" type="text" class="validate">
+                            <label for="token_name">Token/DDSC Name</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input value="" id="token_symbol" type="text" class="validate">
+                            <label for="token_symbol">Token Symbol</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card-panel colonyButtonCard minimumPadding teal">
+            <div class="row">
+                <div class="col s6 center">
+                    <a class="waves-effect waves-light btn" onclick="cancel()">
+                        <i class="material-icons left tiny">close</i>Cancel</a>
+                </div>
+                <div class="col s6 center">
+                    <a class="waves-effect waves-light btn" onclick="createColony()">
+                        <i class="material-icons left tiny">check</i>Submit</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="./genericCode.js"></script>
+
+    <script type="text/javascript">
+        //Auto init all MaterializeCSS components
+        M.AutoInit();
+
+        //Close current Window
+        function cancel() {
+            window.close();
+        }
+
+        //Create a new colony
+        function createColony() {
+            const iTokenName = document.querySelector("#token_name").value;
+            const iTokenSymbol = document.querySelector("#token_symbol").value;
+
+            if (iTokenName === "" || iTokenSymbol === "") {
+                M.toast({html: "All fields must be filled!"});
+                return;
+            }
+
+            ipcRenderer.send("colony:create", iTokenSymbol, iTokenName);
+
+            window.close();
+            /*setTimeout(() => {
+                window.close();
+            }, 1000);*/
+        }
+    </script>
+</body>
+
+</html>

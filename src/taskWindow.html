@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Decentralized Data Science Colony</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <main>
+        <div class="card-panel taskTextCard minimumPadding">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s8">
+                            <input disabled value="Research Name" id="research_name" type="text" class="validate">
+                            <label for="research_name">Research Name</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input disabled value="Phase" id="phase_name" type="text" class="validate">
+                            <label for="phase_name">Phase</label>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="input-field col s10">
+                            <input id="task_name" type="text" class="validate" data-length="256">
+                            <label for="task_name">Task Name</label>
+                        </div>
+                        <div class="input-field col s2">
+                            <input disabled value="--/--/----" id="due_date" type="text" class="validate">
+                            <label for="due_date">Due Date</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="task_description" class="materialize-textarea" data-length="1024"></textarea>
+                            <label for="task_description">Task Description</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card-panel taskButtonCard minimumPadding teal">
+            <div class="row">
+                <div class="col s4 center">
+                    <a class="waves-effect waves-light btn">
+                        <i class="material-icons left tiny">close</i>Cancel</a>
+                </div>
+                <div class="col s4 center">
+                    <a class="waves-effect waves-light btn">
+                        <i class="material-icons left tiny">check</i>Submit</a>
+                </div>
+                <div class="col s4 center">
+                    <a class="waves-effect waves-light btn">
+                        <i class="material-icons left tiny">grade</i>Rate</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+
+    <script type="text/javascript">
+        const electron = require("electron");
+        const { ipcRenderer } = electron;
+
+        //Auto init all MaterializeCSS components
+        M.AutoInit();
+
+        $(document).ready(function () {
+            $('input#task_name, textarea#task_description').characterCounter();
+        });
+    </script>
+</body>
+
+</html>

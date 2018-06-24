@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Decentralized Data Science Colony</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <header>
+        <nav class="nav-wrapper">
+            <a href="#" class="brand-logo left">
+                <i class="material-icons left" style="font-size: 45px">assessment</i> DDSC - Decentralized Data Science Colony</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <!-- Information on Currently Open Colony -->
+                    <span class="flow-text">Research Information</span>
+                    <div class="card-panel minimumPadding">
+                        <ul class="collection">
+                            <li class="collection-item"><b>Name:</b> General Research Colony</li>
+                            <li class="collection-item"><b>Funding:</b> 999 Tokens</li>
+                            <li class="collection-item"><b>Description:</b> loren lipsum, ec...</li>
+                        </ul>
+                    </div>
+
+                    <span class="flow-text">Documents</span>
+                    <div class="card-panel light-blue lighten-5 researchDocsCard">
+                        <table id="tblFunding" class="highlight">
+                            <thead>
+                                <tr>
+                                    <th>Phase</th>
+                                    <th>Task</th>
+                                    <th>Document</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Question</td>
+                                    <td>2 - Question refined</td>
+                                    <td>
+                                        <a href="#">This is an extremely long title that will be truncated</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <!-- Research is Progress -->
+                    <span class="flow-text">Tasks</span>
+                    <i onclick="openTask(-1)" class="material-icons right small tooltipped" data-position="bottom" data-tooltip="Click to create a new Task">add_box</i>
+
+                    <div class="card-panel light-blue lighten-5 researchTaskCard">
+                        <table id="tblResearch" class="highlight">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Phase</th>
+                                    <th>Name</th>
+                                    <th>Funding</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <i class="material-icons tooltipped" data-position="bottom" data-tooltip="Done">done</i>
+                                    </td>
+                                    <td>Question</td>
+                                    <td><a onclick="openTask(2)">2 - Something</a></td>
+                                    <td style="text-align:right">22</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="material-icons tooltipped" data-position="bottom" data-tooltip="In Progress">directions_run</i>
+                                    </td>
+                                    <td>EDA</td>
+                                    <td><a onclick="openTask(2)">3 - Something</a></td>
+                                    <td style="text-align:right">25</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="material-icons tooltipped" data-position="bottom" data-tooltip="Rating">flag</i>
+                                    </td>
+                                    <td>EDA</td>
+                                    <td><a onclick="openTask(2)">4 - Something</a></td>
+                                    <td style="text-align:right">12</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="material-icons tooltipped" data-position="bottom" data-tooltip="Cancelled">close</i>
+                                    </td>
+                                    <td>Model</td>
+                                    <td><a onclick="openTask(2)">5 - Something</a></td>
+                                    <td style="text-align:right">2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Mark Duske - MIT License
+                <a class="grey-text text-lighten-4 right" target="_blank" href="https://github.com/mduske/colonyHackathon">GitHub Repo</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+
+    <script type="text/javascript">
+        const electron = require("electron");
+        const {ipcRenderer} = electron;
+
+        //Auto init all MaterializeCSS components
+        M.AutoInit();
+
+        /** 
+         * Open an existing Task
+         */
+         function openTask(_taskId) {
+            ipcRenderer.send("task:open", _taskId);
+        }
+    </script>
+</body>
+
+</html>

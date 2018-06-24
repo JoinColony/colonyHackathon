@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Decentralized Data Science Colony</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <header>
+        <nav class="nav-wrapper">
+            <a href="#" class="brand-logo left">
+                <i class="material-icons left" style="font-size: 45px">assessment</i> DDSC - Decentralized Data Science Colony</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <!-- Information on Currently Open Colony -->
+                    <span class="flow-text">Colony Information</span>
+                    <div class="card-panel minimumPadding">
+                        <ul class="collection">
+                            <li class="collection-item">
+                                <b>Name:</b> <a id="tokenName" class="black-text">Open/Create Colony First...</a></li>
+                            <li class="collection-item">
+                                <b>Token:</b> <a id="tokenSymbol" class="black-text">Open/Create Colony First...</a></li>
+                            <li class="collection-item">
+                                <b>Colony ID:</b> <a id="colonyId" class="black-text">Open/Create Colony First...</a></li>
+                            <li class="collection-item">
+                                <b>Colony Address:</b> <a id="colonyAddress" class="black-text">Open/Create Colony First...</a></li>
+                        </ul>
+                    </div>
+
+                    <span class="flow-text">Funding</span>
+                    <div class="card-panel light-blue lighten-5 fundingPots">
+                        <table id="tblFunding" class="highlight">
+                            <thead>
+                                <tr>
+                                    <th>Pot Name</th>
+                                    <th style="text-align:right">Funds Available</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rewards</td>
+                                    <td style="text-align:right">123</td>
+                                </tr>
+                                <tr>
+                                    <td>Working Capital</td>
+                                    <td style="text-align:right">234</td>
+                                </tr>
+                                <tr>
+                                    <td>Pot ABC</td>
+                                    <td style="text-align:right">1234</td>
+                                </tr>
+                                <tr>
+                                    <td>Pot ABC1</td>
+                                    <td style="text-align:right">1234</td>
+                                </tr>
+                                <tr>
+                                    <td>Pot ABC2</td>
+                                    <td style="text-align:right">1234</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <!-- Research is Progress -->
+                    <span class="flow-text">Current Research</span>
+                    <i onclick="openResearch(-1)" class="material-icons right small tooltipped" data-position="bottom" data-tooltip="Click to create a new Research">add_box</i>
+
+                    <div class="card-panel light-blue lighten-5 currentResearch">
+                        <table id="tblResearch" class="highlight">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Funding</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a onclick="openResearch(1)">Research 1</a>
+                                    </td>
+                                    <td style="text-align:right">123</td>
+                                    <td>EDA</td>
+                                    <!-- Latest Domain/Phase in course -->
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a onclick="openResearch(2)">Research 2</a>
+                                    </td>
+                                    <td style="text-align:right">234</td>
+                                    <td>Question</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 3</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>Communication</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 1</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>EDA</td>
+                                    <!-- Latest Domain/Phase in course -->
+                                </tr>
+                                <tr>
+                                    <td>Research 2</td>
+                                    <td style="text-align:right">234</td>
+                                    <td>Question</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 3</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>Communication</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 1</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>EDA</td>
+                                    <!-- Latest Domain/Phase in course -->
+                                </tr>
+                                <tr>
+                                    <td>Research 2</td>
+                                    <td style="text-align:right">234</td>
+                                    <td>Question</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 3</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>Communication</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 1</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>EDA</td>
+                                    <!-- Latest Domain/Phase in course -->
+                                </tr>
+                                <tr>
+                                    <td>Research 2</td>
+                                    <td style="text-align:right">234</td>
+                                    <td>Question</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 3</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>Communication</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 1</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>EDA</td>
+                                    <!-- Latest Domain/Phase in course -->
+                                </tr>
+                                <tr>
+                                    <td>Research 2</td>
+                                    <td style="text-align:right">234</td>
+                                    <td>Question</td>
+                                </tr>
+                                <tr>
+                                    <td>Research 3</td>
+                                    <td style="text-align:right">123</td>
+                                    <td>Communication</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s4">
+                        © 2018 Mark Duske - MIT License
+                    </div>
+                    <div class="col s8">
+                        Current Account: <a class="grey-text text-lighten-4" id="currentAccount"></a>
+                        <a class="grey-text text-lighten-4 right hide-on-med-and-down" target="_blank" href="https://github.com/mduske/colonyHackathon">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+
+    <script type="text/javascript" src="./genericCode.js"></script>
+
+    <script type="text/javascript">
+        //const electron = require("electron");
+        //const { ipcRenderer } = electron;
+
+        //Auto init all MaterializeCSS components
+        M.AutoInit();
+
+        //Events
+        ipcRenderer.on("account:change", function (e, _accountNumber, _accountAddress) {
+            //Ethereum Account has been selected by user
+            //document.title = "DDSC - Decentralized Data Science Colony " + _accountNumber + "/" + _accountAddress;
+
+            const aCurrentAccount = document.querySelector("a#currentAccount");
+            aCurrentAccount.innerHTML = _accountNumber + " / " + _accountAddress;
+
+            M.toast({html: "Account set to " + _accountAddress});
+        });
+
+        //Close currently open Colony
+        ipcRenderer.on("colony:close", function (e, _colonyData) {
+            //Clear Text Fields
+            const aTokenName = document.querySelector("a#tokenName");
+            const aTokenSymbol = document.querySelector("a#tokenSymbol");
+            const aColonyId = document.querySelector("a#colonyId");
+            const aColonyAddress = document.querySelector("a#colonyAddress");
+            
+            aTokenName.innerHTML = "Loading...";
+            aTokenSymbol.innerHTML = "Loading...";
+            aColonyId.innerHTML = "Loading...";
+            aColonyAddress.innerHTML = "Loading...";
+
+            //Remove Research
+            const tblTokenName = document.querySelector("#tblResearch");
+            while(tblTokenName.rows.length>1) {
+                tblTokenName.deleteRow(1);
+            }
+
+            //Remove Funding
+            const tblFunding = document.querySelector("#tblFunding");
+            while(tblFunding.rows.length>1) {
+                tblFunding.deleteRow(1);
+            }
+        });
+
+        ipcRenderer.on("colony:change", function (e, _colonyData) {
+            console.log("Colony Changed to " + _colonyData.id);
+            console.log(_colonyData);
+            //Ethereum Collony has been selected by user
+            //document.title = "DDSC - Decentralized Data Science Colony " + _accountNumber + "/" + _accountAddress;
+
+            //const aCurrentAccount = document.querySelector("a#currentAccount");
+            //aCurrentAccount.innerHTML = _accountNumber + " / " + _accountAddress;
+
+            const aTokenName = document.querySelector("a#tokenName");
+            const aTokenSymbol = document.querySelector("a#tokenSymbol");
+            const aColonyId = document.querySelector("a#colonyId");
+            const aColonyAddress = document.querySelector("a#colonyAddress");
+            
+            aTokenName.innerHTML = _colonyData.token.name;
+            aTokenSymbol.innerHTML = _colonyData.token.symbol;
+            aColonyId.innerHTML = _colonyData.id;
+            aColonyAddress.innerHTML = _colonyData.address;
+
+            M.toast({html: "Colony set to " + _colonyData.id + "/" + _colonyData.address});
+        });
+
+        /** 
+         * Open an existing Task
+         */
+        function openResearch(_researchId) {
+            ipcRenderer.send("research:open", _researchId);
+        }
+    </script>
+</body>
+
+</html>

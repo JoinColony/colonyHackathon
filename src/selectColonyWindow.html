@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Select Colony to Use</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <main>
+        <div class="input-field col s12">
+            <select id="colonySelector">
+                <option value="" disabled selected>Choose Colony</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="input-field col s10">
+            </div>
+            <div class="input-field col s2">
+                <a onclick="colonySelected()" class="waves-effect waves-light btn">OK</a>
+            </div>
+        </div>
+    </main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+
+    <script type="text/javascript">
+        const electron = require("electron");
+        const { ipcRenderer } = electron;
+
+        //Populate Account Selector
+        ipcRenderer.on("colony:list", function (e, _colonyList, _toastMessage) {
+            console.log("Populating Colonies " + _colonyList.length);
+
+            const colonySelector = document.querySelector("select#colonySelector");
+
+            //sconsole.log("colonySelector: " + colonySelector);
+
+            for (x = 0; x < _colonyList.length; x++) {
+                console.log("Populating Colony " + x + " " + _colonyList[x]);
+                option = document.createElement("option");
+                option.value = _colonyList[x].id + "," + _colonyList[x].address;
+                option.text = _colonyList[x].id + " - " + _colonyList[x].token.symbol + "/" + _colonyList[x].token.name + " - " + _colonyList[x].address;
+                colonySelector.add(option);
+            }
+
+            //Initialize Select Element
+            M.AutoInit();
+
+            M.toast({displayLength: 2500, html: _toastMessage});
+        });
+
+        function colonySelected() {
+            selectedAccount = document.querySelector("#colonySelector").value;
+
+            if (selectedAccount != "") {
+                const values = selectedAccount.split(",");
+
+                //Send Colony ID and Address
+                ipcRenderer.send("colony:selected", values[0], values[1]);
+
+                window.close();
+            }
+        }
+
+        //Auto init all MaterializeCSS components
+        //M.AutoInit();
+    </script>
+</body>
+
+</html>
