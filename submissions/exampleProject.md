@@ -1,27 +1,31 @@
 # An Example Project for the Colony Hackathon
 
 ## Project Description
-This is a project that solves a real problem in the decentralized ecosystem: Lack of example projects for the Colony Hackathon.
+Ongaku mura (music village in Japanese) is a decentralized application that serves as a music platform where creators of the mashup musics can directly negotiate with original creators of sampled musics regarding the licensing fees. If you are interested, the details can be found here
 
 ### Issue
-This closes the issue colonyHackathon#1
+https://github.com/JoinColony/colonyHackathon/issues/80
 
 ### Repository
 
-The project code lives at https://github.com/username_or_organization/exampleProject
+The project code lives at https://github.com/soma11soma11/ongaku-mura
 
-### Final Commit
-The final commit of our project for submission is:
-https://github.com/username_or_organization/exampleProject/commit/793fafb21efbbee0620d74381dd11d3f25938726
 
 ### Team
 The project was built with contributions from:
 
-- Griffin (@gichiba on GitHub, griffin@colony.io)
-- Foo (@f00 on Github, foo@bar.io)
+Soma Suzuki | Developer 
+[Twitter@11_soma_](https://twitter.com/11_soma_)
+[Github@soma11soma11 ](https://github.com/soma11soma11)
+
+Kazuyuki Morishita | Developer 
+[Github@Kazu-moris ](https://github.com/Kazu-moris)
+
+Luís Claudio Arcos | Music industory researcher
+[Github@lcarcos ](https://github.com/lcarcos)
 
 ---
 
 ## Additional Materials
 
-We created a [demo video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) to help understand the vision and how the parts of our project fit together.
+We wrote an [article](https://medium.com/@somasuzuki/ongaku-mura-colony-hackathon-f2a2673e0b50) to help understand the vision and how the parts of our project fit together.
