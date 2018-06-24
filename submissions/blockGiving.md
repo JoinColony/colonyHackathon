@@ -49,7 +49,7 @@ The community as a whole evaluates the task completion submissions and approves 
 
 
 ### Issue
-"Closes: JoinColony/colonyHackathon/issues/107"
+Closes: JoinColony/colonyHackathon/issues/107
 ### Repository
 
 The project code lives at https://github.com/username_or_organization/exampleProject
