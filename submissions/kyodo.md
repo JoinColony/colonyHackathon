@@ -20,6 +20,10 @@ Contracts https://github.com/decentfund/colonyNetwork
 
 ### Final Commit
 
+The one and only:
+
+https://github.com/decentfund/kyodo/commit/4774e4594567812e1f560bef5bc90e8305df0ae2
+
 ### Team
 
 The project was built with contributions from:
