@@ -1,4 +1,4 @@
-# researchColony: Crowdsourcing Time & Funds for Research
+<img src="https://github.com/ConnorChristie/diagnosis-colony/blob/master/researchColony.png?raw=true" align="middle">
 
 ## Project Description
 What inspired me to come up with this idea was hearing stories about rare diseases that only a handful of people have in the world without there being any research or doctors knowing anything about the condition. This project aims to bring together the symptoms of unseen diseases with scientists, researchers, doctors, and the general public to find out more and reward them for their work in discovering more about the condition.
@@ -26,7 +26,7 @@ The project code lives at https://github.com/ConnorChristie/diagnosis-colony
 
 ## Final Commit
 The final commit of our project for submission is:
-https://github.com/ConnorChristie/diagnosis-colony/commit/adc3b11419dc50c53a2dd9ec0d4b8b134a78edfc
+https://github.com/ConnorChristie/diagnosis-colony/commit/da14d8db68d0c7e9aecf6e1e6e694c3c66c29e7f
 
 ## Team
 The project was built with contributions from:
