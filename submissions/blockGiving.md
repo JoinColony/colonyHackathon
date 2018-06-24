@@ -3,7 +3,7 @@
 <!-- You *don't* need to delete all the comments like this one since they won't show up in the viewer. -->
 <!-- Use your project name as the title of this issue. This is what we’ll call your winning project! -->
 
-**A decentalized, self-perpuating, cross-border giving network on top of COLONY**
+**BlockGiving: A decentalized, self-perpuating, cross-border giving network on top of COLONY**
 <!--(Please also add it above ^^ as the title of this issue)-->
 
 ---
@@ -88,9 +88,9 @@ The project was built with contributions from:
 
 **Team Members and Contact info**
 <!--(Where can others reach you during the hackathon? @twitter, @github, email, etc.):-->
-@mdhalim Github email: halim.infinity@gmail.com
-@avirajkhare00 Github
-Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
+-@mdhalim  email: halim.infinity@gmail.com
+-@avirajkhare00 email: avirajkhare00@gmail.com
+-Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
 
 ---
 
