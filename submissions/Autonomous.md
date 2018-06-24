@@ -22,7 +22,7 @@ The project code lives at [https://github.com/jvanoers/autonomous](https://githu
 ### Final Commit
 The final commit of our project for submission is:
 
-[https://github.com/jvanoers/autonomous/tree/8c3b54e72ae37b6b93389b22c73a257225dcd6bf](https://github.com/jvanoers/autonomous/tree/8c3b54e72ae37b6b93389b22c73a257225dcd6bf)
+[https://github.com/jvanoers/autonomous/tree/aac66ffc1d75919e851faff008d5ce0df1323c3e](https://github.com/jvanoers/autonomous/tree/aac66ffc1d75919e851faff008d5ce0df1323c3e)
 
 ### Team
 
@@ -40,5 +40,7 @@ Thomas Kingston | Github: [@DyslexicMot](https://github.com/DyslexicMot) | Email
 [Autonomous Readme](https://github.com/jvanoers/autonomous/blob/master/README.md)
 
 [Autonomous - Whitepaper.pdf](https://github.com/jvanoers/autonomous/blob/master/Autonomous%20-%20Whitepaper.pdf)
+
+[Bootstrapping Demo Video](https://www.useloom.com/share/3c0ecf21022c46d98ff993f6ee4af22c)
 
 [Demo (Technical Walkthrough)](https://github.com/jvanoers/autonomous/blob/master/DEMO.md)
