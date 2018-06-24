@@ -93,4 +93,4 @@ The project was built with contributions from:
 ---
 
 ## Additional Materials
-Pitch Deck: https://raw.githubusercontent.com/mdhalim/blockGiving/1fed3b7cd8be9698dca39aa80afb0fcd8cad3da1/BlockGivingDeck.pdf
+Pitch Deck: https://github.com/mdhalim/blockGiving/blob/master/BlockGivingDeck.pdf
