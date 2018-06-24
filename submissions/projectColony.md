@@ -12,7 +12,7 @@ The project code lives at https://github.com/tobwiens/colonyHackathon
 
 ### Final Commit
 The final commit of our project for submission is:
-https://github.com/tobwiens/colonyHackathon/commit/13f59ade9de497c0a830cf3bf840a97bc164c8b5
+https://github.com/tobwiens/colonyHackathon/commit/a41a8a135f24135a1ee01c18532f262b5196f325
 
 ### Team
 The project was built with contributions from:
