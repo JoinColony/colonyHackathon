@@ -66,6 +66,8 @@ In a way, our plaform could run by itself with contributions from members of the
 * While funding New Project, Enter Atleast 0.1 ETH to Create a New Project.
 
 
+## Walkthrough
+https://github.com/mdhalim/blockGiving/blob/master/BlockGivingDeck.pdf
 
 
 <!--Any additional info you might want to share now:-->
