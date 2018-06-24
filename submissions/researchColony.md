@@ -17,6 +17,15 @@ We plan on expanding this project beyond the Medical field and into other resear
 * Present problems among the different domains which require lots of collaboration and research. These will most likely be open source and community projects.
 * Allow individuals with different skill sets to provide insight for a story. Encouraging collaboration and diversity among the research projects. (The source of innovation)
 
+## Current Features
+* Create new stories and view them all on the stories page
+* Request to be a researcher for a story (using an account other than the story authors)
+* Story author can then assign researcher and evaluator roles to a story
+* Researchers may then view the condition details and submit their work
+* Once the research is submitted, the evaluator can rate their work
+* At that time, the researcher will also be able to rate the quality of the story
+* After all ratings are in, each party will be requested to reveal their ratings
+
 ## Issue
 This closes the issue colonyHackathon#82
 
