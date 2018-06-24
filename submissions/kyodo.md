@@ -14,9 +14,9 @@ Frontend https://github.com/decentfund/kyodo
 
 Backend https://github.com/decentfund/kyodo-backend
 
-Bot https://github.com/decentfund/kyodo-bot
+Bot https://github.com/decentfund/giveth-bot/tree/kyodo
 
-Contracts https://github.com/decentfund/colonyNetwork
+Contracts https://github.com/decentfund/colonyNetwork/tree/kyodo
 
 ### Final Commit
 
