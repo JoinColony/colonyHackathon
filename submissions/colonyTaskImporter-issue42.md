@@ -24,7 +24,7 @@ This closes the issue colonyHackathon#[42](https://github.com/JoinColony/colonyH
 The project code lives at https://github.com/colonyportal/colonyPortal for dApp, and https://github.com/colonyportal/colonyPortalNetwork which includes Colony Network and scripts to set up a test colony and domain for demo purpose.
 
 ### Final Commit
-The final commit of our project for submission is: `860b81ed1b3bd79f6fd9073039b89f29767a1108`
+The final commit of our project for submission is: https://github.com/colonyportal/colonyPortal/commit/1b5e439e5d85aedf252364bd4d15eeecbfe30d80
 
 ### Team
 The project was built with contributions from:
@@ -33,6 +33,9 @@ The project was built with contributions from:
 - Jordan Ellis - @JordanEllis6809 on Github
 - Jingyu Zhang - @JingyuZ on Github
 - Patrick Q - @patrickqpan on Github
+
+## Demo Time!
+We created a [demo video](https://drive.google.com/drive/folders/16lYt6R6R5j0ML-bW0go2bSYwnZfizy_z?usp=sharing) to go through the vision of colony task importer and how it works.
 
 ## Run App Locally
 ### Setup
@@ -53,7 +56,7 @@ $ npm start
 ```
 Run at http://localhost:3000/, and you can put colony address `0x4479B49eE193E6107Ed2Ad38A9b089Ee362542BA` to explore, which was created from test colony script.
 
----
+---------
 
-## Additional Materials
-We created a [demo video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) to help understand the vision and how the parts of our project fit together.
+## Additional Material
+We put together a presentation [slides](https://docs.google.com/presentation/d/1fKCLldCPohGKFMrzewkNC0JOUmHcdFll4o9Q81UtOyc/edit?usp=sharing) for project details and vision we mentioned in the demo video.
