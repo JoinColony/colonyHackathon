@@ -43,11 +43,6 @@ The community as a whole evaluates the task completion submissions and approves 
 <!--Where will you be working on your project? -->
 <stealth>
 
-**Team Members and Contact info**
-<!--(Where can others reach you during the hackathon? @twitter, @github, email, etc.):-->
-@mdhalim 
-@avirajkhare00
-Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
 
 
 <!--Any additional info you might want to share now:-->
@@ -66,11 +61,13 @@ https://github.com/username_or_organization/exampleProject/commit/793fafb21efbbe
 ### Team
 The project was built with contributions from:
 
-- Griffin (@gichiba on GitHub, griffin@colony.io)
-- Foo (@f00 on Github, foo@bar.io)
+**Team Members and Contact info**
+<!--(Where can others reach you during the hackathon? @twitter, @github, email, etc.):-->
+@mdhalim Github email: halim.infinity@gmail.com
+@avirajkhare00 Github
+Ashutosh Mishra: https://www.linkedin.com/in/ashutosh000/
 
 ---
 
 ## Additional Materials
-
-We created a [demo video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) to help understand the vision and how the parts of our project fit together.
+Pitch Deck
