@@ -25,4 +25,4 @@ The project was built with contributions from:
 
 ## Additional Materials
 
-Please, check [our pitch deck here](https://github.com/Fishbiscuit/ColonyHackathon-61/ChainReaction.pdf).
+Please, check [our pitch deck here](https://github.com/Fishbiscuit/ColonyHackathon-61/blob/master/ChainReaction.pdf).
