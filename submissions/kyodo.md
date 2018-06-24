@@ -2,7 +2,7 @@
 
 ## What is Kyodo
 
-Kyodo - is an attempt to create an ecosystem of applications, communities and tools to help decentralised teams to govern, cooperate, collaborate, recognise each others contributions in horizontal manner and hopefully flourish. This is just the beginning.
+Kyodo - is an attempt to create an ecosystem of applications, communities and tools to help decentralised teams to govern, cooperate, learn, collaborate, recognise each others contributions in horizontal manner and hopefully flourish. This is just the beginning.
 
 ### Issue
 
@@ -42,4 +42,4 @@ Medium Article – more in depth about the concept <https://medium.com/p/385515e
 
 ![Dashboard](../docs/dashboard.png)
 
-![Tips](../docs/tips.png)
+![Members](../docs/members.png)
