@@ -61,11 +61,10 @@ In a way, our plaform could run by itself with contributions from members of the
 -By being a part of our platform, they can join our network and take actions on tasks that they are capable of doing and get funded for it by submitting the proofs-of-work in the form of images/videos.
 
 
+## You can access it live at http://139.59.191.168:8080/
+* You should have MetaMask installed and connected to Rinkeby Test Network to view Project Funds and Create New Project.
+* While funding New Project, Enter Atleast 0.1 ETH to Create a New Project.
 
-
-**Project Repository**
-<!--Where will you be working on your project? -->
-<stealth>
 
 
 
