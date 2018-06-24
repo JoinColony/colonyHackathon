@@ -26,9 +26,9 @@ The final commit of our project for submission is this [commit.](https://github.
 ### Team
 The project was built with contributions from:
 
-- Mateja Trifunovski (Front-end Engineer) (@matko95 on GitHub, mtrifunovski@decenter.com)
-- Nikola Klipa (Software Engineer / Solidity) (@nklipa13 on GitHub, nklipa@decenter.com)
-- Vukašin Stančević (UX / UI Designer) (@leftlife on Behance, vukasin@decenter.com)
+- Mateja Trifunovski (Front-end Engineer) ([@matko95](https://github.com/matko95) on GitHub, mtrifunovski@decenter.com)
+- Nikola Klipa (Software Engineer / Solidity) ([@nklipa13](https://github.com/nklipa13) on GitHub, nklipa@decenter.com)
+- Vukašin Stančević (UX / UI Designer) ([@leftlife](https://www.behance.net/user/?username=leftlife) on Behance, vukasin@decenter.com)
 
 We are a group of crypto (ethereum) enthusiasts and developers that work together at [Decenter](https://decenter.com/).
 
