@@ -1,7 +1,7 @@
 # Chain Reaction
 
 ## Project Description
-Chain Reaction is a framework that uses the [Colony.io](https://colony.io/) platform to create an ecosystem that rewards volunteers for utilizing their experitse in social causes and projects.
+Chain Reaction is a framework that uses the [Colony.io](https://colony.io/) platform to create an ecosystem that rewards volunteers for utilizing their expertise in social causes and projects.
 
 ### Registration
 [ColonyHackathon#61](https://github.com/JoinColony/colonyHackathon/issues/61)
