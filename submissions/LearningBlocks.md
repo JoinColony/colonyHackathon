@@ -15,7 +15,7 @@ In the Learning Blocks platform, when a course, such as The Microsoft Digital Li
 In the long run, the Learning Blocks Colony benefits from having a pool of skilled workers (former and ongoing students) who are qualified and capable of completing future tasks. In the case of Learning Blocks, we envision a potential colony to be an education training organization where students become workers of that organization in itself - perhaps becoming teachers of courses or any other type of organizational worker. The colony could also be a type of career or loosly maintained community project portal where students build up their careers in an accredited and transparent manner, further increasing their value to outside employee pool bases or other colonies. Such a meritocratic use of the Colony Network could have could have far reaching, borderless, and lifelong benefits for refugees, general learners and organizations.
 
 ### Colony Hackathon Issue
-This closes the issue colonyHackathon#1.
+This closes the issue [colonyHackathon#71](https://github.com/JoinColony/colonyHackathon/issues/71).
 
 ### Repository
 
@@ -30,9 +30,9 @@ Read the readme.md file for User Flows, Setup Instructions, etc.
 ### Team
 The project was built with contributions from:
 
-- Jehane Akiki | Project Founder | [LinkedIn](https://www.linkedin.com/in/jehane-akiki-7a58114a/) | @ja888 on GitHub
-- Harald Krefting | Lead Developer | [LinkedIn](https://www.linkedin.com/in/haraldkrefting/) | @haraldini on GitHub
-- Lisa Trujillo | Technical Delivery Manager and Developer | [LinkedIn](https://www.linkedin.com/in/lisamtrujillo/) | @lisamtrujillo in GitHub
+- Jehane Akiki | Project Founder | [LinkedIn](https://www.linkedin.com/in/jehane-akiki-7a58114a/) | [@ja888](https://github.com/ja888) on GitHub
+- Harald Krefting | Lead Developer | [LinkedIn](https://www.linkedin.com/in/haraldkrefting/) | [@haraldini](https://github.com/haraldini) on GitHub
+- Lisa Trujillo | Technical Delivery Manager and Developer | [LinkedIn](https://www.linkedin.com/in/lisamtrujillo/) | [@lisamtrujillo](https://github.com/lisamtrujillo) on GitHub
 
 
 
