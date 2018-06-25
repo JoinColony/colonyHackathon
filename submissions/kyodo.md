@@ -34,7 +34,9 @@ The project was built with contributions from:
   [nastya@decent.fund](mailto:nastya@decent.fund))
 * Roma (@romochka on Github, [voronezhskiy@decent.fund](mailto:voronezhskiy@decent.fund))
 * Nikita (@palevoo on Github,
-  [kud.nikita@gmail.com.fund](mailto:kud.nikita@gmail.com))
+  [kud.nikita@gmail.com](mailto:kud.nikita@gmail.com))
+* Alina ([http://alinaloseva.com/](alinaloseva.com),
+[hello@alinaloseva.com](mailto:hello@alinaloseva.com)
 
 ---
 
