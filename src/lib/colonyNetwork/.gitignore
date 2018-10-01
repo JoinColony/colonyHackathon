@@ -1,0 +1,15 @@
+node_modules
+parity-genesis.json
+contracts/Updated*
+contracts/IUpdated*
+keys/*
+test-results.xml
+0
+parityPassword
+**/build/*
+coverage
+coverage.json
+lib/dappsys
+ganache-accounts.json
+.vscode/
+yarn-error.log

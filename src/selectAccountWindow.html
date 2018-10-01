@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DDSC - Select Account to Use</title>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/extraStyle.css">
+</head>
+
+<body class="white">
+    <main>
+        <div class="input-field col s12">
+            <select id="accountSelector">
+                <option value="" disabled selected>Choose Account</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="input-field col s10">
+            </div>
+            <div class="input-field col s2">
+                <a onclick="accountSelected()" class="waves-effect waves-light btn">OK</a>
+            </div>
+        </div>
+    </main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+
+    <script type="text/javascript">
+        const electron = require("electron");
+        const { ipcRenderer } = electron;
+
+        //Populate Account Selector
+        ipcRenderer.on("account:list", function (e, _accountList, _toastMessage) {
+            //console.log("Populating Accounts");
+
+            const accountSelector = document.querySelector("select#accountSelector");
+
+            //sconsole.log("accountSelector: " + accountSelector);
+
+            for (x = 0; x < _accountList.length; x++) {
+                //console.log("Populating Accounts " + x + " " + _accountList[x]);
+                option = document.createElement("option");
+                option.value = x + "," + _accountList[x];
+                option.text = x + " - " + _accountList[x];
+                accountSelector.add(option);
+            }
+
+            //Initialize Select Element
+            M.AutoInit();
+
+            M.toast({displayLength: 2500, html: _toastMessage});
+        });
+
+        function accountSelected() {
+            selectedAccount = document.querySelector("#accountSelector").value;
+
+            if (selectedAccount != "") {
+                const values = selectedAccount.split(",");
+                ipcRenderer.send("account:selected", values[0], values[1]);
+
+                window.close();
+            }
+        }
+
+        //Auto init all MaterializeCSS components
+        //M.AutoInit();
+    </script>
+</body>
+
+</html>

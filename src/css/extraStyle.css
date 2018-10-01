@@ -1,0 +1,123 @@
+/* Required for the sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Override of MaterializedCSS classes */
+
+.container {
+    margin: 0 auto;
+    max-width: 2280px;
+    width: 100%;
+}
+
+/* Customization to individual Elements */
+
+/* Main Window - BEGIN */
+.currentResearch {
+    min-height: 30vh;
+    max-height: 78vh;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.fundingPots {
+    min-height: 50vh;
+    max-height: 50vh;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-height: 900px) {
+    .fundingPots {
+        min-height: 30vh;
+        max-height: 30vh;
+    }
+    .currentResearch {
+        max-height: 70vh;
+    }
+}
+/* Main Window - END */
+
+/* Research Window - BEGIN */
+
+.researchTaskCard {
+    min-height: 15vh;
+    max-height: 78vh;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.researchDocsCard {
+    min-height: 50vh;
+    max-height: 50vh;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-height: 900px) {
+    .researchDocsCard {
+        min-height: 39vh;
+        max-height: 39vh;
+    }
+    .researchTaskCard {
+        max-height: 70vh;
+    }
+}
+/* Research Window - END */
+
+/* Task Window - END */
+.taskTextCard {
+    height: 400px;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow: auto;
+}
+
+.taskButtonCard {
+    height: 200px;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+}
+/* Task Window - END */
+
+/* Create New Colony - END */
+.colonyTextCard {
+    height: 400px;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow: auto;
+}
+
+.colonyButtonCard {
+    height: 200px;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+}
+/* Create New Colony Window - END */
+
+
+.minimumPadding {
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.minimumPadding > * {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
